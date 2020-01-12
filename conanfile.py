@@ -5,6 +5,7 @@ from conans import ConanFile
 
 class CnlConan(ConanFile):
     name = "cnl"
+    version = "0.0.2"
     license = "Boost Software License 1.0"
     author = "John McFarlane <cnl@john.mcfarlane.name>"
     url = "https://github.com/johnmcfarlane/cnl"
@@ -19,7 +20,7 @@ class CnlConan(ConanFile):
 
     scm = {
         "type": "git",
-        "url": "https://github.com/johnmcfarlane/cnl.git",
+        "url": "https://github.com/kaidokert/cnl.git",
         "revision": "auto"
     }
 
